@@ -1,0 +1,13 @@
+{
+  "name": "fzf-preview.zsh",
+  "version": "0.0.0",
+  "author": "yuki_yano <yuki.ycino@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cargo build",
+    "build:watch": "chokidar src/**/*.rs --command \"cargo build\""
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0"
+  }
+}
